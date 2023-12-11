@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&family=Poppins:wght@300&family=Roboto+Mono:ital,wght@1,300&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Radley:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@600&display=swap');
+body
+{
+    padding: 0;
+    margin: 0;
+    background-color: #f4f1e8;
+}
+.ONE{
+   
+    height: 100vw;
+    align-items: center;
+}
+.logo img{
+    padding: 6vw 0vw 2vw 44vw;margin: 0;
+    display: flex;
+    justify-content: center;
+    WIDTH: 100PX;
+    HEIGHT: 100PX;
+}
+.one h1
+{
+    margin: 0;
+    padding: 0;
+    TEXT-ALIGN: center;
+    font-size: 100px;
+    font-family: 'Radley', serif;
+}
+.one h1 span {
+    color: #9b4819;
+}
+.onedec
+{
+    text-align: center;
+    color: #9b4819;
+    font-family: 'Radley', serif;    
+}
+.waviy {
+    position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  .waviy span {
+    PADDING: 0PX 0PX 13PX 6PX;
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    color: #9b4819;
+    animation: flip 4s infinite;
+    animation-delay: calc(.4s * var(--i))
+  }
+  @keyframes flip {
+    0%,50%,80% {
+      transform: rotateY(360deg) 
+    }
+  }
+  .two{
+   height: 35vw;
+  }
+.two h1
+{
+    font-family: 'Radley', serif;
+    font-size: 45PX;
+    text-align: center;
+    color: #9b4819;
+    letter-spacing: .07em;
+}
+.two  img{
+    float: right;
+    padding: 0px 115px 0px 0px;
+    border-radius: 160px 0px 0px 0px;
+    height: 430px;
+    width: 400px;
+    display: flex;
+    align-items:end;
+}
+.cabout{
+    padding: 4px 700px 0px 158px;
+    margin: 0;
+    font-family: 'Radley', serif; 
+    color: #9b4819;
+    
+}
+.three
+{
+  height: 40vw;
+}
+.three h1
+{
+  padding: 40px 0px 95px 0px;
+    font-family: 'Radley', serif;
+    text-align: center;
+    color: #9b4819;
+    font-size: 45px;
+    letter-spacing: .07em;
+}
+
+.item2
+{
+  display: flex;
+}
+.item1{
+  /* padding:0px 0px 0px 125px; */
+  margin: 0px 0px 0px 0px;
+  width: 35%;
+}
+.item1 img{
+ 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  
+  
+}
+
+.item3{
+  /* padding:0px 0px 0px 160px; */
+  margin: 0px 0px 0px 0px;
+  width: 30%;
+
+}
+.item3 img{
+ 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  
+}
+.item4{
+  /* padding:0px 0px 0px 162px; */
+  margin: 0px 0px 0px 0px;
+  width: 35%;
+
+}
+.item4 img{
+ 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+
+}
+
+.caption1{
+padding: 14px 69px 0px 87px;
+text-align: center;
+font-family: 'Radley', serif;
+color: #9b4819;
+}
+.caption2{
+  padding: 14px 33px 0px 38px;
+  text-align: center;
+  font-family: 'Radley', serif;
+  color: #9b4819;
+}
+
+.caption3{
+  padding: 14px 91px 0px 103px;
+  text-align: center;
+  font-family: 'Radley', serif;
+  color: #9b4819;
+}
+.subcaption1
+{
+font-size: 12px;
+word-spacing: 12em;
+font-family: 'Edu SA Beginner', cursive;
+}
+.nameins{
+    padding: 0px 0px 0px 0px;
+}
+.four h1
+{
+  margin: 0px;
+  padding: 0px 0px 50px 0px;
+    color: #9b4819;
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Radley', serif;
+    letter-spacing: .08em;
+
+}
+.skill1{
+  padding-bottom: 25px;
+}
+.skill2
+{
+  padding: 25px 0px 50px 0px;
+}
+.five h1
+{
+  margin: 0px;
+  color: #9b4819;
+  text-align: center;
+  font-size: 45px;
+  font-family: 'Radley', serif;
+  letter-spacing: .07em;
+  word-spacing: 0.5em;
+}
+.head
+{
+  margin: 0px 400px 0px 411px;
+}
+.subtext{
+  margin: 0;
+  padding-bottom: 30px;
+  font-size: 18px;
+  text-align: center;
+font-family: 'Edu SA Beginner', cursive;
+}
+.perso{
+  display: flex;
+}
+.perso1
+{
+  padding: 0px 37px 0px 33px;
+  width: 40%;
+  color: #9b4819;
+  font-family: 'Radley', serif;
+  font-weight: 30px;
+  text-align: center;
+}
+
+.perso2
+{
+  
+  width: 40%;
+  color: #9b4819;
+  font-family: 'Radley', serif;
+  font-weight: 30px;
+  text-align: center;
+}
+
+.container {
+    color: #000000;
+    font-size: 2.26rem;
+    height: 33 vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .animation {
+    height:50px;
+    overflow:hidden;
+    margin-left: 1rem;
+  }
+  
+  .animation > div > div {
+    padding: 0.25rem 0.75rem;
+    height:2.41rem;
+    margin-bottom: 2.81rem;
+    display:inline-block;
+  }
+  
+  .animation div:first-child {
+    animation: text-animation 6s infinite;
+  }
+  
+  .first div {
+    background-color:#5e08aa;
+    color: #f4f1e8;
+  }
+  .second div {
+
+    background-color:#3a580e;
+    color: #f4f1e8;
+
+  }
+  .third div {
+    background-color:#cd0707;
+    color: #f4f1e8;
+
+  }
+  
+  @keyframes text-animation {
+    0% {margin-top: 0;}
+    10% {margin-top: 0;}
+    20% {margin-top: -5.62rem;}
+    30% {margin-top: -5.62rem;}
+    40% {margin-top: -11.24rem;}
+    60% {margin-top: -11.24rem;}
+    70% {margin-top: -5.62rem;}
+    80% {margin-top: -5.62rem;}
+    90% {margin-top: 0;}
+    100% {margin-top: 0;}
+  }
+  .six{
+    background: #9b4819;
+    height: 43vw;
+  }
+  .six h1
+  {
+    margin: 0px;
+    color: antiquewhite;
+    padding-top: 80px;
+    font-size: 45px;
+    font-family: 'Radley', serif;
+    letter-spacing: .07em;
+    
+  }
+  .reach{
+    margin: 0px 721px 0px 33px;
+  }
+  .contact{
+    margin: 0;
+    padding: 0PX 0PX 0PX 0PX;
+  }
+  .c1{
+    padding-left: 200px;
+    padding-right: 40px;
+  }
+  .lastcon{
+    margin: 0px 0px 0px 822px;
+  }
+  .contact2{
+    margin: 0;
+    padding: 0PX 0PX 0PX 0PX;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .contact3{
+    margin: 0;
+    padding: 0PX 0PX 0PX 0PX;
+    list-style: none;
+  }
+  .contact3 a{
+    text-decoration: none;
+    color: #f4f1e8;
+  }
+  .num{
+float: right;
+padding-right: 280px;
+color: #f4f1e8;
+font-family: 'Radley', serif;
+
+  }
+  .num2{
+    float: right;
+    padding-right: 180px;
+    font-family: 'Radley', serif;
+
+ }
+ .bgcolor
+ {
+  background-color: #f4f1e8;
+ }
